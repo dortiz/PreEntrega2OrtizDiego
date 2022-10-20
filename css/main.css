@@ -2,65 +2,77 @@
     font-family: "GillSansStd-Light";
     src: url(../fonts/GillSansStd-Light.otf);
 }
+
 * {
-    font-family: "GillSansStd-Light";  
-    padding: 0%; 
-    margin: 0%;
+    font-family: "GillSansStd-Light";
 }
-/*---header---*/
-h1{
-    background-color: #db172b;
-    color: rgb(228 208 208);
-    font-size: 16px;
+
+/*---navbar---*/
+.navbar {
+    background-color: #dc3545;
+}
+
+#sombralogo {
+    filter: brightness(20%);
+}
+
+.nav-link {
+    color: white;
+    text-shadow: 0 0 5px #000;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: white !important;
+}
+
+/*---cabecera---*/
+.cabecera {
+    background-image: url(../images/crash-1308575_960_720.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    color: white;
+    text-shadow: 0 0 10px rgb(15, 15, 15);
+    text-transform: capitalize;
     text-align: center;
 }
-.header-container nav {
-    background-color: #db172b;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    padding: 10px;
+
+.cabecera h1 {
+    padding-top: 200px;
 }
-.header-lista{
-    margin-left: auto;
-    margin-right: auto;
-}
-.header-lista a{
-    text-decoration: none;
-    font-size: 20px;
-    color: rgb(228 208 208);
-    font-weight: bolder;
-    margin-left: 7px;
-    margin-right: 7px;
-    }
-.header-lista a:hover {
-    color: rgb(14, 12, 12);
-    text-shadow: none;
-}
+
 /*---footer---*/
-.footer-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px;
-}
-.footer-container div img {
-    width: 30px;
-    height: auto;
-}
-.footer-container p{
-    font-size: 14px;
-    font-weight: lighter;
+footer {
+    background-color: #dc3545;
     text-align: center;
+    padding-top: 10px;
 }
+
+body {
+    background-color: rgba(166, 166, 180, 0.233);
+
+}
+
 /*---seccion productos----*/
-.button {
-    display: grid;
-    justify-content: space-around;
-    align-content: space-between;
-    align-items: center;
+
+.card {
+    background-color: rgba(166, 166, 180, 0.233);
 }
+
+.card img {
+    filter: brightness(0%);
+}
+
+.card-title {
+    color: black;
+    text-shadow: 0 0 5px rgb(15, 15, 15);
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
 /*---seccion preguntas frecuentes---*/
 
 /*---seccion Quien Soy---*/
